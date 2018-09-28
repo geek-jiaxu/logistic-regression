@@ -3,7 +3,7 @@ A Simple Logistic Regression In Java.
 
 ## Test
 
-'''
+```java
 public static void main(String[] args) throws Exception {
 		LogisticRegression lr = new LogisticRegression(4, 0.01);
 
@@ -28,4 +28,4 @@ public static void main(String[] args) throws Exception {
 		System.out.println(lr.predict(new double[] {4.6,3.2,1.4,0.2})); // 0.9929066448006123
 		System.out.println(lr.predict(new double[] {5.9,3.0,5.1,1.8})); // 4.8026209792515905E-4
 	}
-'''
+```
